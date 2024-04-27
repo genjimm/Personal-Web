@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../static/main/css/header.css">
+    <link rel="stylesheet" href="../static/main/css/navbar.css">
+    <link rel="stylesheet" href="../static/main/css/footer.css">
+    <link rel="stylesheet" href="../static/main/css/main.css">
+    <script src="../static/main/js/main.js"defer></script>
+</head>
+
+<body>
+    <header>
+        <!--Header Top image-->
+        <div class="banner"></div>
+    </header>
+
+    <!--Navbar-->
+    <nav>
+        <!-- string of Navbar course hw 1 and 3 buttons-->
+        <p>CSE 477 - Homework 1</p>
+        <!-- hidde bar -->
+        <br>
+        <label for="menu_bar" class="menu_btn"></label>
+        <input type="checkbox" id="menu_bar">
+        <!--Navbar strings and buttons-->
+        <div class="link_container">
+            <ul>
+                <li class="link"><a href="home.html">Home</a></li>
+                <li class="link"><a href="projects.html">Projects</a></li>
+                <li class="link"><a href="../static/main/document/resume.pdf">Resume</a></li>
+                <!--linkedin string under 650 mode-->
+                <li class="link"><a class="linkedin_str" href="https://www.linkedin.com/in/fangjun-huang-a03764265/">LinkedIn</a></li>
+                <!--linkedin button-->
+                <li class="link"><a class="linkedin_btn" href="https://www.linkedin.com/in/fangjun-huang-a03764265/"></a></li>
+            </ul>
+        </div>
+
+        <div class="line">
+
+        </div>
+    </nav>
+
+    
+    <!--Main content-->
+    <main>
+        <!--Main content-->
+        <!--consist of left part image Right part self intro, and bottom funfact-->
+        <div class="top_intro">
+            <h2>Below is a list of projects I worked on in CSE 477:</h2>
+            <br>
+            <h10>Click an image, or hyperlink in the description to learn more.</h10>
+        </div>
+        <div class="continer">
+            <hr class="top_line">
+            <div class="grid_struc">
+                <!--left side    Author image -->
+                <div>
+                    <a href="../templates/piano.html">
+                        <img src="../static/main/images/piano.jpeg" class="left_image" loading = "lazy" alt ="pic_piano"></a>
+                </div>
+                <!--right side   slef intro-->
+                <div class="content_right">
+                    <!--Author name-->
+                    <div class="author_name">
+                        <h1>Javascript Piano</h1>
+                    </div>
+                    <!--Brief description-->
+                    <div class="brief_intro">
+                        <p>As part of my first Homework assignment in CSE477. I developed an interactive 
+                            piano build  pure HTML, CSS and Javascript. 
+                            This tool (in addition to my webpage) highlight my ability to build 
+                            beautiful and mobile-friendly front-end applications. 
+                            <!-- piano link -->
+                            <a href="../templates/piano.html"><u>Click here to see and play!</u></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Fun fact-->
+        <div class="fun_fact">
+            <p>More coming soon!</p>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <div class="footer_class">
+        <footer>
+            <p class="cpright">©2023 Fangjun Huang</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

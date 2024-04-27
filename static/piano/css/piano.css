@@ -1,0 +1,107 @@
+/* The container of piano */
+.container_piano{
+    width: 60vw;
+    background-color: rgb(30, 45, 46);
+    
+    display: grid;
+    margin:50px auto 20px;
+    max-width: 100vw;
+    max-height: 50vh;
+    border-radius: 25px 25px 3px 3px;
+}
+/* The 10 white keys in grid mode */
+.container_keys{
+    display: grid;
+    margin: 30px auto 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+/* Thre great old one title */
+.key_style{
+    opacity: 0;
+    
+}
+.title{
+
+    color: #fff;
+    font-size: 2vw;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    margin: 10px auto 0px;
+}
+/*  the font of white key*/
+.white_keys{
+    display: flex;
+    align-items: flex-end;
+    width: 4vw;
+    height: 36vh;
+    background-color: #fff;
+    border-radius: 8px;
+    border: rgb(6, 9, 9) 4px solid;
+    z-index: 2;
+    float: left;
+}
+/* the font of black key */
+.black_keys{
+    height: 24vh;
+    width: 2.5vw;
+    background-color: rgb(6, 9, 9);
+    border-radius: 6px;
+    border: rgb(6, 9, 9) 4px solid;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    z-index: 3;
+}
+/* For the absolute position manually adjusted */
+.key_w{
+    right:64.9%;
+}
+
+.key_e{
+    right:61%;
+}
+
+.key_t{
+    right:52.8%;
+}
+
+.key_y{
+    right:48.8%;
+}
+
+.key_u{
+    right:44.7%;
+}
+
+.key_o{
+    right:36.5%;
+}
+
+.key_p{
+    right:32.5%;
+}
+
+.img_Cthulhu{
+    opacity: 0;
+    position: absolute;
+    background-size: cover;
+    width: 60vw; 
+    display: grid;
+    margin:0px auto 20px;
+    max-width: 100vw;
+    max-height: 45vh;
+    border-radius: 25px 25px 3px 3px;
+
+}
+
+.string_awoken{
+    opacity: 0;
+    color: #e8d5d5;
+    position: absolute;
+    font-size: 4vw;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    margin: 3% 15% 30%;
+
+}

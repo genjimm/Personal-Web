@@ -1,0 +1,19 @@
+/*No whitespace between top to banner imgae*/
+*{margin: 0%;
+padding: 0;
+
+box-sizing: border-box;}
+
+
+
+
+/*Header*/
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: Top left;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
